@@ -1,0 +1,51 @@
+<!doctype html>
+
+
+<html>
+
+
+<head>
+<script src="base64.js"></script>
+
+<title> 
+	Take notes!
+</title>
+<style>
+{ margin: 0; padding: 0; }
+html { 	
+	background: url("wood.jpg") no-repeat center center fixed; 
+	webkit-background-size: cover; 
+	moz-background-size: cover; 
+	o-background-size: cover; 
+	background-size: cover; 
+ }
+
+
+</style>
+</head>
+
+
+<body>
+	<H1 align="center">
+	<br>&nbsp;My Notes....<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    </H1>  
+     
+
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"Id="text1"style="font-size:12pt;height:50px;width:1510px;">
+ 	<br><br>
+	<button onclick="WriteToFile()">submit</button>
+
+	<script type="text/javascript">
+	function WriteToFile() {
+    var firstName = document.getElementById('text1').value;
+    console.log(firstName);
+    window.location.href="data:application/octet-stream;base64,"+Base64.encode(firstName);
+    
+ }
+</script>
+
+
+</body>	
+
+
+</html>	
