@@ -1,0 +1,95 @@
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  float: left;
+  color: #778899;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+nav {
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  font-size: 30;
+  font-family: Georgia;
+  font-style: oblique;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+h1 {
+  position: absolute;
+  top: 270px;
+  left: 150px;
+  font-size: 45;
+  font-family: arial;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+h2 {
+  position: absolute;
+  top: 370px;
+  left: 450px;
+  font-size: 45;
+  font-family: arial;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+.books {
+
+  position: relative;
+  width: 100%;
+
+}
+
+.languages {
+  position: relative;
+  width: 100%;
+
+}
+
+.channel {
+  font-size: 25;
+  font-family: arial;
+}
+
+p1 {
+  font-family: arial;
+  font-size: 25;
+  text-align: middle;
+}
+
+p2 {
+
+  font-family: arial;
+  font-size: 25;
+  text-align: middle;
+
+}
+
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
